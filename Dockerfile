@@ -1,7 +1,8 @@
 FROM golang:1.14.3 as builder
-COPY ./main.go ./
-RUN go build -o /hello ./main.go
+WORKDIR /src
+COPY . .
+RUN go build -o /hello .
 
 FROM alpine:latest
-COPY --from=builder /hello .
+COPY --from=builder /hello /
 ENTRYPOINT ["./hello"]
