@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"time"
 	"github.com/vkbaba/go-sampleapp/math"
 )
 
