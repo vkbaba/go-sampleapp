@@ -2,10 +2,13 @@ package main
 
 import (
 	"fmt"
+	"time"
 	"github.com/vkbaba/go-sampleapp/math"
 )
 
 func main() {
-    sum := math.Add(3, 4)
-	fmt.Printf("Hello,\"%d\"!", sum)
+    a, b := 3, 4
+	sum := math.Add(a, b)
+	fmt.Printf("Hello,\"%d\" + \"%d\" = \"%d\"!", a, b, sum)
+	time.Sleep(1 * time.Hour)
 }
