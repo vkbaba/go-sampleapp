@@ -7,5 +7,5 @@ import (
 
 func main() {
     sum := math.Add(3, 4)
-	fmt.Println(sum)
+	fmt.Printf("Hello,\"%d\"!", sum)
 }
