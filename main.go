@@ -10,5 +10,4 @@ func main() {
     a, b := 3, 4
 	sum := math.Add(a, b)
 	fmt.Printf("Hello, %d + %d = %d !", a, b, sum)
-	time.Sleep(1 * time.Hour)
 }
