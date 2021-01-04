@@ -1,5 +1,11 @@
 package main
-import "fmt"
+
+import (
+	"fmt"
+	"github.com/vkbaba/go-sampleapp/math"
+)
+
 func main() {
-    fmt.Println("Hello World! v2")
+    sum := math.Add(3, 4)
+	fmt.Println(sum)
 }
