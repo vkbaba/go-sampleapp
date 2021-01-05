@@ -1,13 +1,10 @@
-apiVersion: batch/v1
-kind: Job
+apiVersion: v1
+kind: Pod
 metadata:
   name: go-sampleapp
 spec:
-  template:
-    spec:
-      containers:
-      - name: go-sampleapp
-        image: __IMAGE__
-      restartPolicy: Never
-      imagePullSecrets:
-      - name: registry-secret
+  containers:
+  - name: go-sampleapp
+    image: __IMAGE__
+  imagePullSecrets:
+  - name: registry-secret
