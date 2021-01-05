@@ -1,2 +1,2 @@
 # go-sampleapp
-This is a sample appliation for tanzu build service.
+This is a sample appliation for tekton.
