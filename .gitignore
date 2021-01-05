@@ -12,4 +12,4 @@
 *.out
 
 # Manifest continuously updated
-go-sampleapp.yaml
+/go-sampleapp-yaml/
