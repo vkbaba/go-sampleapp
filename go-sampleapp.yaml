@@ -7,7 +7,7 @@ spec:
     spec:
       containers:
       - name: go-sampleapp
-        image: 172.16.194.68:cc741e8ce5514b8209bbdd80ce07c8f310439b5e
+        image: 172.16.194.68/demo-ns:1add0ddb85469b7891316bcb744ef76effdbe479
       restartPolicy: Never
       imagePullSecrets:
       - name: registry-secret
