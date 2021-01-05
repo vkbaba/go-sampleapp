@@ -1,0 +1,13 @@
+apiVersion: batch/v1
+kind: job
+metadata:
+  name: go-sampleapp
+spec:
+  template:
+    spec:
+      containers:
+      - name: go-sampleapp
+        image: __IMAGE__
+      restartPolicy: Never
+      imagePullSecrets:
+      - name: registry-secret
