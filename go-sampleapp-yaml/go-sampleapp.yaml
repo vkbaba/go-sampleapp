@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: go-sampleapp
-    image: 172.16.194.68/demo-ns/go-sampleapp:88596e50334b134042d141dda7b2b04a2e0e1bd3
+    image: 172.16.194.68/demo-ns/go-sampleapp:12d5be10000bbef17f49c69b0eee36094b1e8324
   imagePullSecrets:
   - name: registry-secret
